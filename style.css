@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+body {
+    font: 18px/1.4 sans-serif;
+    background-color: #ffffff;
+}
+
+nav {
+    box-shadow: 2px 2px 10px #888888;
+}
+
+nav a {
+    color: white;
+    display: block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: white;
+}
+
+nav ul, nav ul li {
+    list-style-type: none;
+    left-padding: 0;
+    margin: 0;
+}
+
+nav>ul {
+    background: #f3b8cc;
+    text-align: left;
+}
+
+nav>ul>li {
+    display: inline-block;
+    border-right: solid 2px white;
+}
+
+.content {
+    background-color: white;
+    box-shadow: 2px 2px 10px #888888;
+    width: 66.6%;
+    margin: 0 auto;
+    text-align:center;
+}
